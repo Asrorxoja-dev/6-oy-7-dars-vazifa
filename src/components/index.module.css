@@ -1,0 +1,179 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+   max-width: 1110px;
+   margin-left: auto;
+   margin-right: auto;
+margin-top: 20px;
+align-items: center;
+
+
+
+font-family: sans-serif;
+/* height: 42px;
+left: 165px;
+right: 165px;
+top: 30px;
+bottom: 728px; */
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+   font-family: Poppins;
+
+}
+
+.header h2{
+    font-family: sans-serif;
+    width: 70px;
+   font-weight: 600;
+
+
+}
+
+.imgHero{
+    margin-top: 50px;
+   margin-left: 110px;
+    mix-blend-mode: multiply;
+
+
+}
+
+
+
+
+.hero{
+    display: flex;
+    /* justify-content: space-around; */
+    background:none;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+.nav ul li a{
+    font-family: sans-serif; 
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   margin-left: 300px;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 21px;
+   letter-spacing: 0px;
+   text-align: right;
+  
+   color: rgb(41, 51, 127);
+}
+
+.nav ul li a:hover{
+   color:rgb(41, 51, 127);
+}
+
+
+.button{
+    padding: 10px;
+    border: none;
+    /* border-radius: 10px; */
+    font-family: sans-serif;
+font-size: 14px;
+width: 130px;
+height: 42px;
+color: aliceblue;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+cursor: pointer;
+border-radius: 100px;
+transition: all 0.5s;
+background: rgb(60, 78, 243);
+}
+
+.button:hover{
+    background-color: rgb(9, 9, 142);
+}
+
+.text h3{
+  /* Connecting all your banking needs */
+  width: 500px;
+  height: 346px;
+  margin-top: 80px;
+  left: 165px;
+  margin-left: 120px;
+  color: rgb(30, 37, 94);
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+.text p{
+    color: rgba(30, 37, 94, 0.7);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+width: 400px;
+line-height: 24px;
+letter-spacing: 0px;
+margin-left: 120px;
+margin-top: -50px;
+text-align: left;
+}
+
+.downloadButton{
+    margin-left: 120px;
+    margin-top: 50px;
+    display: flex;
+   font-family: sans-serif;
+
+  
+}
+.downloadButton button span{
+    margin-left: 10px;
+    align-items:center;
+   font-family: sans-serif;
+
+}
+
+
+.downloadButton button{
+   margin-right: 20px;
+   padding: 10px;
+
+   border-radius:30px;
+   width: 200px;
+   display: flex;
+  justify-content: center;
+   align-items:center;
+   text-align: center;
+
+   height: 60px;
+   border: none;
+   background-color:rgb(200, 204, 207);
+   /* opacity: 0.1; */
+  color: blue;
+  cursor: pointer;
+   font-family: sans-serif;
+  
+   font-size: 14px;
+   transition: 0.5s;
+}
+
+.downloadButton button:hover{
+    background-color:rgb(133, 163, 224);
+}
